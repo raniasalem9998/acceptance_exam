@@ -71,6 +71,9 @@ function pairElements(array1, array2) {
         for (let i in array1) {
             array3.push(array1[i] + ' ' + array2[i])
         }
+    }else{
+        console.log('null')
+        return 'null'
     }
     //write your code here
     console.log(array3)
